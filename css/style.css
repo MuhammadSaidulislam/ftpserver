@@ -1033,6 +1033,7 @@ margin-right: 5px;
     border-radius: inherit;
     animation: pulsing 2.5s linear infinite;
 }
+
 .leftlink.pulsing:before,
 .leftlink .pulsing:after {
     width: 100%;
@@ -1200,7 +1201,8 @@ margin-right: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.tv_link button{
+
+.tv_link button {
     border: 2px solid rgb(100, 100, 100);
     padding: 0px;
     margin: 8px 12px;
@@ -1210,7 +1212,8 @@ margin-right: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.tv_link .tv img{
+
+.tv_link .tv img {
     width: 95px;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1218,7 +1221,8 @@ margin-right: 5px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
-.tvFrame iframe{
+
+.tvFrame iframe {
     width: 100%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -1226,15 +1230,17 @@ margin-right: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.movieHeading{
-  
-border-bottom: 1px solid red;
-padding-bottom: 35px;
-}
-.movieHeading h1{
-    font-size: 56px;
-font-weight: 700;
-color: #fff;
 
-border-bottom: 1px solid red;
+.movieHeading {
+
+    border-bottom: 2px dashed crimson;
+    padding-bottom: 35px;
+}
+
+.movieHeading h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #111;
+
+    border-bottom: 1px solid #111;
 }
